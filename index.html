@@ -3,15 +3,149 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GiftListApp Privacy Policy</title>
+  <title>GiftListApp - Privacy Policy</title>
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --primary-hover: #4338ca;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 32px 16px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 36px 32px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 1.85rem;
+      color: var(--text);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 12px;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      color: #1e293b;
+    }
+    p, li {
+      color: #334155;
+    }
+    .badge {
+      display: inline-block;
+      background: #e0e7ff;
+      color: #3730a3;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .card {
+      background: #f1f5f9;
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 20px 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .footer {
+      margin-top: 36px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-<body style="font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; line-height: 1.6; padding: 0 16px;">
-  <h1>GiftListApp Privacy Policy</h1>
-  <p>Last updated: April 26, 2026</p>
+<body>
+  <div class="container">
+    <span class="badge">Legal Documentation</span>
+    <h1>GiftListApp Privacy Policy</h1>
+    <p>Last updated: November 21, 2026</p>
 
-  <p>GiftListApp may request camera access so users can take photos to attach to gift ideas and lists.</p>
-  <p>If you use sign-in or cloud features, data may be processed by services such as Firebase Authentication, Firestore, Analytics, and Crashlytics.</p>
-  <p>We use this information to provide app functionality, improve stability, and support the app experience.</p>
-  <p>If you have questions, contact: your-email@example.com</p>
+    <p>
+      Welcome to <strong>GiftListApp</strong>. This Privacy Policy outlines how your personal information is handled when you use the GiftListApp mobile application and related services.
+    </p>
+
+    <h2>1. Information We Collect</h2>
+    <ul>
+      <li><strong>Account Information:</strong> When you register an account, we collect your email address and optional profile display name.</li>
+      <li><strong>User-Generated Content:</strong> Gift lists, list item names, descriptions, external links, photos, reservation claims, and chat messages you create within the app.</li>
+      <li><strong>Camera and Photo Library:</strong> With your permission, GiftListApp may access your device camera or photo library so you can take and upload gift photos.</li>
+      <li><strong>Diagnostics & Analytics:</strong> Anonymous application telemetry, crash logs, and performance metrics to help us diagnose issues and ensure app stability.</li>
+    </ul>
+
+    <h2>2. How We Use Information</h2>
+    <p>
+      We use the collected information solely to:
+    </p>
+    <ul>
+      <li>Provide core list sharing, gift coordination, item claim tracking, and messaging features.</li>
+      <li>Synchronize your gift lists across devices and with friends you explicitly invite.</li>
+      <li>Deliver customer support, respond to user inquiries, and improve application reliability.</li>
+    </ul>
+
+    <h2>3. Cloud Infrastructure & Third-Party Services</h2>
+    <p>
+      GiftListApp utilizes secure cloud infrastructure (including Supabase for authentication, PostgreSQL database, and cloud storage, as well as PostHog for crash and analytics monitoring) to host application data. We do not sell or rent your personal information to third parties.
+    </p>
+
+    <h2>4. Account & Data Deletion</h2>
+    <div class="card">
+      <h3 style="margin-top:0;">Request Data Deletion</h3>
+      <p>
+        You have the full right to request deletion of your account and all associated personal data at any time without needing the app installed.
+      </p>
+      <p>
+        Visit our dedicated <a href="delete-account.html">Account & Data Deletion Page</a> or email <a href="mailto:brodiepasker20@gmail.com">brodiepasker20@gmail.com</a> with the subject line <code>GiftListApp - Account and Data Deletion Request</code>. All associated data will be permanently purged within 30 days.
+      </p>
+    </div>
+
+    <h2>5. Contact Us</h2>
+    <p>
+      If you have questions or concerns regarding this Privacy Policy, please contact the developer at:
+      <br>
+      <strong>Email:</strong> <a href="mailto:brodiepasker20@gmail.com">brodiepasker20@gmail.com</a>
+    </p>
+
+    <div class="footer">
+      <span>© 2026 GiftListApp • Developer: Brodie Pasker</span>
+      <span><a href="delete-account.html">Account & Data Deletion →</a></span>
+    </div>
+  </div>
 </body>
 </html>
